@@ -1,14 +1,8 @@
 Pulga Shop - Integración Docker
 
-1. Coloca esta carpeta junto a:
-   - G4_AuthYRegistro/
-   - G7_Inventario/
-
-2. Ajusta los .env según la guía.
-
-3. Ejecuta:
-   docker compose build --no-cache
-   docker compose up
+1. Entrar a G4_AuthYRegistro/
+   - proyecto-back-tite/
+   - backups.zip -> Extraer aquí
 
 URLs:
 - http://localhost/auth
