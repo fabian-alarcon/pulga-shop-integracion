@@ -3,6 +3,7 @@ Pulga Shop - Integración Docker
 1. Entrar a G4_AuthYRegistro/
    - proyecto-back-tite/
    - backups.zip -> Extraer aquí
+   - docker-entrypoint-initdb.d.zip -> Extraer aquí
   
 2. Descomprimir los archivos .env.zip 
 
