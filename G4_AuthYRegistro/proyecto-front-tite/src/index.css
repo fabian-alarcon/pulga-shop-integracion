@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Roboto:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+/* Tipografías Tailwind (si las usas) */
+@theme {
+  --font-sans: 'Roboto', system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  --font-serif: 'Inter', 'Roboto', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+:root {
+  /* Fuente base del sitio */
+  font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Tu paleta existente */
+  --color-darkgreen: #002E38;
+  --color-blue: #003c58;
+  --color-turquesa: #06717e;
+  --color-gris: #ebebeb;
+  --color-white-smoke: #fefefe;
+  --color-black: #1f1b1b;
+}
+
+/* clase para títulos con Inter */
+.h-inter { font-family: 'Inter', 'Roboto', sans-serif; }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* NO fuerces fondo/blanco: deja que lo ponga MUI (theme.palette.background.default) */
+body {
+  min-height: 100vh;
+  min-width: 0;
+  width: 100%;
+  display: flex;
+}
+
+#root {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none !important;
+}
+
+.MuiInputBase-input[type="password"]::-ms-reveal,
+.MuiInputBase-input[type="password"]::-ms-clear {
+  display: none !important;
+}
